@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-brake"
+version = "0.1.0"
+description = "Real deadlines, a Stop that stops, and proof the GPU went idle, for local LLM servers (Ollama, llama.cpp, OpenAI-compatible)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Framework :: AsyncIO",
+]
+
+[project.optional-dependencies]
+ollama = ["psutil>=5.9"]
+
+[tool.setuptools]
+packages = ["llmbrake"]
