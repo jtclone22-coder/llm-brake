@@ -79,3 +79,7 @@ The tests run against a fake local server that streams tokens and cancels on dis
 ## License
 
 MIT
+
+## More tools
+
+Made by [jtclone22-coder](https://github.com/jtclone22-coder): more free Windows tools are on that profile, and paid ones (DevSweep, Overnight, AssetAtlas) are on [Gumroad](https://clonemaster152.gumroad.com).
